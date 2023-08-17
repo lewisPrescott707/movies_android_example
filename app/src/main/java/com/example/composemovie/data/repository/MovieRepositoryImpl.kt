@@ -3,10 +3,10 @@ package com.example.composemovie.data.repository
 import com.example.composemovie.data.remote.MovieAPI
 import com.example.composemovie.data.remote.dto.MovieDetailDto
 import com.example.composemovie.data.remote.dto.MoviesDto
-import com.example.composemovie.domain.repository.MovieRepository
+import com.example.composemovie.domain.repository.IMovieRepository
 import javax.inject.Inject
 
-class MovieRepositoryImpl @Inject constructor(private val api: MovieAPI) : MovieRepository {
+class MovieRepositoryImpl @Inject constructor(private val api: MovieAPI) : IMovieRepository {
     override suspend fun getMovies(search: String): MoviesDto {
         return api.getMovies(search)
     }
