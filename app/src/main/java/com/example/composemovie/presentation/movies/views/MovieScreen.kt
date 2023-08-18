@@ -46,6 +46,7 @@ fun MovieScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Black)
+            .padding(14.dp)
     ) {
         Column {
             MovieSearchBar(
@@ -96,7 +97,7 @@ fun MovieSearchBar(
             maxLines = 1,
             singleLine = true,
             textStyle = TextStyle(color = Color.Black),
-            shape = RoundedCornerShape(12.dp),
+//            shape = RoundedCornerShape(12.dp),
             colors = TextFieldDefaults.textFieldColors(containerColor = Color.White),
             modifier = Modifier
                 .fillMaxWidth()
