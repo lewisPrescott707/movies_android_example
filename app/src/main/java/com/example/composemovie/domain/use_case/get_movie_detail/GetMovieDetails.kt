@@ -1,8 +1,6 @@
 package com.example.composemovie.domain.use_case.get_movie_detail
 
 import com.example.composemovie.data.remote.dto.toMovieDetail
-import com.example.composemovie.data.remote.dto.toMovieList
-import com.example.composemovie.domain.model.Movie
 import com.example.composemovie.domain.model.MovieDetail
 import com.example.composemovie.domain.repository.IMovieRepository
 import com.example.composemovie.util.Resource
