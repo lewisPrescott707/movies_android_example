@@ -52,17 +52,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
-            var call= Retrofit.Builder()
-                .baseUrl(Constants.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build()
-                .create(MovieAPI::class.java)
-
-            GlobalScope.launch(Dispatchers.IO) {
-               println(call.getMovieDetail("tt1877830"))
-            }
-
-
         }
     }
 }

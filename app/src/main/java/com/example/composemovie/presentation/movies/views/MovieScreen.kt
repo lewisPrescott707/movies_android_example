@@ -26,9 +26,11 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.example.composemovie.presentation.Screen
 import com.example.composemovie.presentation.movies.MoviesEvent
 import com.example.composemovie.presentation.movies.MoviesViewModel
@@ -115,5 +117,10 @@ fun MovieSearchBar(
     }
 }
 
+@Composable
+@Preview
+fun MovieScreenPreview() {
+    MovieScreen(navController = rememberNavController())
+}
 
 
