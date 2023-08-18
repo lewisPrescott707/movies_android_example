@@ -12,7 +12,7 @@ class MovieRepositoryImpl @Inject constructor(private val api: MovieAPI) : IMovi
     }
 
     override suspend fun getMovieDetail(imdbId: String): MovieDetailDto {
-        return api.getMovieDetail(imdbId)
+        return api.getMovieDetail(imdbId = imdbId)
     }
 
 }
