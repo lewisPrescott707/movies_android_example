@@ -32,4 +32,4 @@ Follow these instructions to set up and run the Movie App on your local machine.
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/movie-app.git
+   git clone https://github.com/tamerlankayak/Compose_Movie_Clean_Architecture.git
