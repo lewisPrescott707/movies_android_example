@@ -15,3 +15,21 @@ Welcome to the Movie App! This Android application allows you to browse a list o
 - Implements dependency injection with Hilt.
 - Performs HTTP requests using Retrofit.
 - Loads and displays images from URLs with Coil.
+
+## Getting Started
+
+Follow these instructions to set up and run the Movie App on your local machine.
+
+### Prerequisites
+
+- Android Studio 4.2 or later.
+- Android Gradle Plugin 7.0 or later.
+- Kotlin 1.5.0 or later.
+- API key from [OMDB API](http://www.omdbapi.com/").
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```shell
+   git clone https://github.com/yourusername/movie-app.git
