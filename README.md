@@ -27,9 +27,27 @@ Follow these instructions to set up and run the Movie App on your local machine.
 - Kotlin 1.5.0 or later.
 - API key from [OMDB API](http://www.omdbapi.com/").
 
+### Getting an API Key
+
+To use this app, you need to obtain an API key from OMDB API:
+
+1. Visit [OMDB API](https://www.omdbapi.com/).
+2. Sign up for an account or log in if you already have one.
+3. Follow their instructions to create an API key.
+
 ### Installation
 
 1. Clone the repository to your local machine:
 
    ```shell
    git clone https://github.com/tamerlankayak/Compose_Movie_Clean_Architecture.git
+
+
+###  Usage
+1.Upon opening the app, you will see a list of movies fetched from the OMDB API.
+
+2.Use the search bar to search for specific movies by title.
+
+3.Click on a movie item in the list to view detailed information about that movie.
+
+Enjoy exploring the world of movies!
