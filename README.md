@@ -43,7 +43,7 @@ To use this app, you need to obtain an API key from OMDB API:
    git clone https://github.com/tamerlankayak/Compose_Movie_Clean_Architecture.git
 
 
-###  Usage
+### Usage
 1.Upon opening the app, you will see a list of movies fetched from the OMDB API.
 
 2.Use the search bar to search for specific movies by title.
@@ -51,3 +51,9 @@ To use this app, you need to obtain an API key from OMDB API:
 3.Click on a movie item in the list to view detailed information about that movie.
 
 Enjoy exploring the world of movies!
+
+### Acknowledgments
+- This app relies on the OMDB API for movie data.
+- Thanks to the open-source community for providing the libraries and tools used in this project.
+### Contact
+If you have any questions, suggestions, or issues, please feel free to contact us at tamerlan.software@gmail.com .
