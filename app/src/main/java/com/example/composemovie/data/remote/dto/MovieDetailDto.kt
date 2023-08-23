@@ -29,7 +29,7 @@ data class MovieDetailDto(
     val imdbRating: String,
     val imdbVotes: String
 )
-
+//Creation extension method for convert automaticly model
 fun MovieDetailDto.toMovieDetail():MovieDetail{
     return MovieDetail(Actors, Awards, Country, Director, Genre, Language, Poster, Rated, Released, Title, Type, Year, imdbRating)
 }
