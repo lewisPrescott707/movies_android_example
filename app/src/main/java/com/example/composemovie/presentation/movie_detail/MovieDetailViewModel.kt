@@ -21,7 +21,7 @@ class MovieDetailViewModel @Inject constructor(
 
     private val _state = mutableStateOf<MovieDetailState>(MovieDetailState())
     val state: State<MovieDetailState> = _state
-
+    //launching first step of viewmodel and gettting imdbID of movie
     init {
         savedStateHandle.get<String>(IMDB_ID)?.let {
             getMovieDetail(it)
