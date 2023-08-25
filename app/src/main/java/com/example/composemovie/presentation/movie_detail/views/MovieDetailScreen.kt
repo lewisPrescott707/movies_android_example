@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.rememberImagePainter
 import com.example.composemovie.presentation.movie_detail.MovieDetailViewModel
-
+//creating Detail Screen
 @Composable
 fun MovieDetailScreen(
     movieDetailViewModel: MovieDetailViewModel = hiltViewModel()
