@@ -27,7 +27,7 @@ class MovieDetailViewModel @Inject constructor(
             getMovieDetail(it)
         }
     }
-
+    //getting Imdb id for single result
     private fun getMovieDetail(imdbId: String) {
         getMovieDetailsUseCase.executeGetMovieDetails(imdbId = imdbId).onEach {
             println("Detail "+it.data)
